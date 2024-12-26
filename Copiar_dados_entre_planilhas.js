@@ -1,6 +1,8 @@
-    /*
-    * Copia os dados de uma planilha para outra mesmo sendo de drives diferentes
-    */
+/*	GOOGLE APP SCRIPTS
+	Copiar dados de uma planilha para outra, mesmo sendo de drives/usuarios diferentes.
+	OBS: Planilhas publicas.
+	OBS2: as planilhas utilizadas não exitem, foi utilizado os links para exemplo.
+*/
 
     // ler valores
     let sheet_ler = SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheets/d/1JJtDgtd9ZPCV2D5xdFIxecV0YWtc9kqk20Z4l8PKIUs/edit');
